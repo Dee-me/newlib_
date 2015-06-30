@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.minden.LIB" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>LIB</name>
+    <description>
+        LIB
+    </description>
+    <author email="lakunled@ymail.com" href="http://www.mindendevelopers.com/dee">
+        Bello Olakunle David
+    </author>
+    <content src="index.html" />
+
+    <icon src="img/icon.png" />
+    <plugin name="cordova-plugin-whitelist" version="1" />
+
+    <preference name="target-device" value="universal"/>
+    <preference name="fullscreen" value="true"/>
+    <preference name="webviewbounce" value="true"/>
+    <preference name="prerendered-icon" value="true"/>
+    <preference name="stay-in-webview" value="true"/>
+    <preference name="exit-on-suspend" value="false"/>
+    <preference name="android-minSdkVersion" value="9"/>
+    <preference name="android-installLocation" value="auto"/>
+    <preference name="orientation" value="portrait"/>
+    
+    <plugin name="cordova-plugin-battery-status"/>
+    <plugin name="cordova-plugin-camera"/>
+    <plugin name="cordova-plugin-media-capture"/>
+    <plugin name="cordova-plugin-console"/>
+
+    <plugin name="cordova-plugin-device-orientation"/>
+    <plugin name="cordova-plugin-dialogs"/>
+    <plugin name="cordova-plugin-file"/>
+    <plugin name="cordova-plugin-file-transfer"/>
+
+    <plugin name="cordova-plugin-media"/>
+    <plugin name="cordova-plugin-network-information"/>
+    <plugin name="cordova-plugin-splashscreen"/>
+    <plugin name="cordova-plugin-vibration"/>
+
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
