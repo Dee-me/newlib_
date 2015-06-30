@@ -36,6 +36,7 @@
     <plugin name="cordova-plugin-network-information"/>
     <plugin name="cordova-plugin-splashscreen"/>
     <plugin name="cordova-plugin-vibration"/>
+    <plugin name="cordova-plugin-pushplugin"/>
 
     <access origin="*" />
     <allow-intent href="http://*/*" />
